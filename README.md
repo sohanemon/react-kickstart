@@ -73,6 +73,9 @@ echo 'const PrivateRoute = () => {
 
 export default PrivateRoute;' > private-route.jsx
 cd ..
+cd ..
+
+
 ```
 
 ## Start with tailwind css CRA
