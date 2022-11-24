@@ -116,3 +116,8 @@ module.exports = {
 > '🚀 DaisyUI installed successfully...'
 
 ```
+
+## Important libraries
+```sh
+npm i react-router-dom axios @tanstack/react-query react-hot-toast react-icons firebase react-hook-form
+```
