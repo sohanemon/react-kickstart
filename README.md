@@ -1,4 +1,5 @@
 ## Initial setup
+![structure](https://www.xenonstack.com/hubfs/xenonstack-react-directory-structure.png)
 
 ```sh
 cd src
