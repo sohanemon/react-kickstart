@@ -5,7 +5,10 @@
 cd src
 rm App.css
 mkdir assets components context hooks pages layouts features routes utils lib
-mkdir components/form components/ui 
+touch .env
+cd components
+mkdir form ui
+cd ..
 cd pages
 touch home.jsx login.jsx
 cd..
