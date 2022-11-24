@@ -39,7 +39,7 @@ echo 'const MyFooter = () => {
 };
 
 export default MyFooter;' > home.jsx
-cd..
+cd ..
 cd layouts
 touch main.jsx header.jsx footer.jsx
 cd ..
