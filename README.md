@@ -30,20 +30,47 @@ cd src
 rm App.css
 mkdir assets components context hooks pages layouts features routes utils lib
 touch .env
+echo '.env' >> gitignore
 cd components
 mkdir form ui
 cd ..
 cd pages
-echo 'const MyFooter = () => {
+echo 'const Home = () => {
   return <></>;
 };
 
-export default MyFooter;' > home.jsx
+export default Home;' > home.jsx
+echo 'const Login = () => {
+  return <></>;
+};
+
+export default Login;' > login.jsx
 cd ..
 cd layouts
-touch main.jsx header.jsx footer.jsx
+echo 'const Main = () => {
+  return <></>;
+};
+
+export default Main;' > main.jsx
+echo 'const Header = () => {
+  return <></>;
+};
+
+export default Header;' > header.jsx
+echo 'const Footer = () => {
+  return <></>;
+};
+
+export default Footer;' > footer.jsx
 cd ..
 cd routes
-touch router.jsx privateRoute.jsx
+echo 'const router=[]
+
+export default router;' > router.jsx
+echo 'const PrivateRoute = () => {
+  return <></>;
+};
+
+export default PrivateRoute;' > private-route.jsx
 cd ..
 ```
