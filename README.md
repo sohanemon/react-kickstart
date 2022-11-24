@@ -72,6 +72,7 @@ echo 'const PrivateRoute = () => {
 };
 
 export default PrivateRoute;' > private-route.jsx
+> 🚀 Done successfully
 cd ..
 cd ..
 
@@ -95,4 +96,23 @@ module.exports = {
 echo '@tailwind base;
 @tailwind components;
 @tailwind utilities;' > src/index.css
+> 🚀 Successfully done
+
+```
+
+## Start with daisy ui
+```sh
+npm i daisyui
+echo '/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    "./src/**/*.{js,jsx,ts,tsx}",
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [require("daisyui")],
+}' > tailwind.config.js
+> '🚀 DaisyUI installed successfully...'
+
 ```
