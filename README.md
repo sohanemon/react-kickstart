@@ -26,11 +26,11 @@ cd ..
 ## Initial setup v2
 
 ```sh
+touch .env
+echo '.env' >> .gitignore
 cd src
 rm App.css
 mkdir assets components context hooks pages layouts features routes utils lib
-touch .env
-echo '.env' >> gitignore
 cd components
 mkdir form ui
 cd ..
