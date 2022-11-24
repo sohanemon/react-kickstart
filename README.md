@@ -22,3 +22,28 @@ cd ..
 > utils are functions that implemented by me
 
 > lib are function with third party libraries
+
+## Initial setup v2
+
+```sh
+cd src
+rm App.css
+mkdir assets components context hooks pages layouts features routes utils lib
+touch .env
+cd components
+mkdir form ui
+cd ..
+cd pages
+echo 'const MyFooter = () => {
+  return <></>;
+};
+
+export default MyFooter;' > home.jsx
+cd..
+cd layouts
+touch main.jsx header.jsx footer.jsx
+cd ..
+cd routes
+touch router.jsx privateRoute.jsx
+cd ..
+```
