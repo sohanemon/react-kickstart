@@ -74,3 +74,22 @@ echo 'const PrivateRoute = () => {
 export default PrivateRoute;' > private-route.jsx
 cd ..
 ```
+
+## Start with tailwind css CRA
+```sh
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+echo '/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    "./src/**/*.{js,jsx,ts,tsx}",
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}' > tailwind.config.js
+echo '@tailwind base;
+@tailwind components;
+@tailwind utilities;' > src/index.css
+```
